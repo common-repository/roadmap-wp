@@ -1,0 +1,25 @@
+h1.rmwp-h1 {
+    font-size: 2rem!important;
+    font-weight: normal!important;
+}
+h2.rmwp-h2 {
+    font-size: 1.8rem!important;
+    font-weight: normal!important;
+}
+h3.rmwp-h3 {
+    font-size: 1.6rem!important;
+    font-weight: normal!important;
+}
+h4.rmwp-h4 {
+    font-size: 1.4rem!important;
+    font-weight: normal!important;
+}
+h5.rmwp-h5 {
+    font-size: 1.2rem!important;
+    font-weight: normal!important;
+}
+
+/* taxonomy form styles */
+input.rmwp__delete-terms-button {
+    margin-bottom: 10px!important;
+}

@@ -1,0 +1,45 @@
+{
+    "landingPage": "\/wp-admin\//admin.php?page=wp-roadmap-help",
+    "preferredVersions": {
+        "php": "8.0",
+        "wp": "6.5"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "features": {
+        "networking": true
+    },
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org\/plugins",
+                "slug": "roadmap-wp"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "installTheme",
+            "themeZipFile": {
+                "resource": "wordpress.org\/themes",
+                "slug": "kadence"
+            }
+        },
+        {
+			"step": "importFile",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/welbinator/wproadmap/main/.wordpress-org/blueprints/all-demo-content.xml"
+			}
+		}
+
+    ]
+}
